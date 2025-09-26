@@ -510,11 +510,7 @@ nav > .logo {
     width: 5.75rem;
     height: 3.625rem;
 }
-.product-payment svg:hover{
-    cursor: pointer;
-    transform: scale(1.05);
-    border: 2px solid var(--dark-brown);
-}
+
 .accordion {
     border-top: 1px solid #eee;
 }
