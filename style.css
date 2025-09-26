@@ -516,7 +516,7 @@ nav > .logo {
 }
 
 .accordion-item {
-    border-bottom: 1px solid var(--border-accordion);
+    border-bottom: 2px solid var(--border-accordion);
     width: 37rem;
 }
 
