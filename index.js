@@ -49,6 +49,19 @@ headers.forEach(header => {
   });
 });
 
+// Loading Spinner Functionality
+window.addEventListener('load', () => {
+    const loadingOverlay = document.getElementById('loadingOverlay');
+
+    setTimeout(() => {
+        loadingOverlay.classList.add('fade-out');
+
+        setTimeout(() => {
+            loadingOverlay.style.display = 'none';
+        }, 500); 
+    }, 1000); // 3 seconds delay
+});
+
 // Product Image Gallery Functionality
 const mainProductImage = document.getElementById('product-active');
 const thumbnailImages = document.querySelectorAll('.product-list img');
